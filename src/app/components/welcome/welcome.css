@@ -2,6 +2,7 @@
   display: block;
   position: relative;
   min-height: 100vh;
+  font-size: 18px;
 }
 
 :host::before {
@@ -34,24 +35,19 @@
   padding: 6rem 0;
   background: linear-gradient(180deg, #f7f7f7, #ffffff);
 }
-
 .section-title {
   font-weight: 600;
   margin-bottom: 1rem;
 }
-
 .info-card {
   border-radius: 1rem;
   padding: 2rem;
   transition: all 0.2s ease;
   height: 100%;
 }
-
 .info-card:hover {
   background-color: #f1f1f1;
-  transform: translateY(-3px);
 }
-
 .quick-nav-tile {
   border-radius: 1rem;
   background: #f8f9fa;
@@ -61,7 +57,6 @@
   transition: all 0.2s ease;
   cursor: pointer;
 }
-
 .quick-nav-tile:hover {
   background: #e9ecef;
   transform: translateY(-3px);

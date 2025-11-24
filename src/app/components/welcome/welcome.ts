@@ -1,12 +1,10 @@
 import { Component } from '@angular/core';
-import { Header } from "../header/header";
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-welcome',
-  imports: [],
+  imports: [RouterLink],
   templateUrl: './welcome.html',
   styleUrl: './welcome.css',
 })
-export class Welcome {
-
-}
+export class Welcome {}
