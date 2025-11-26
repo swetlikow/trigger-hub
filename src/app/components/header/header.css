@@ -1,6 +1,25 @@
+.navbar {
+  background-color: #000000 !important;
+  border-bottom: 1px solid #ebe3e3;
+}
+
+.nav-link {
+  color: #ebe3e3 !important;
+}
+
+.navbar-toggler-icon {
+  filter: invert(1);
+}
+
+.navbar-toggler {
+  background-color: #ebe3e3 !important;
+}
+
 .dropdown-item {
-  color: rgb(168, 166, 176);
+  color: #ebe3e3;
   font-size: 16px;
-  font-weight: 400;
-  line-height: 1.45;
+}
+
+.dropdown-menu {
+  background-color: #000000 !important;
 }

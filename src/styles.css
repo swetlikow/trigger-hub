@@ -6,13 +6,38 @@ body {
 
 body {
   position: relative;
-  background: #050617;
   overflow-x: hidden;
-  color: rgb(168, 166, 176);
   font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'SF Pro Display', 'Helvetica Neue',
     Helvetica, Arial, sans-serif;
   font-size: 16px;
-  font-weight: 400;
-  line-height: 1.45;
-  letter-spacing: -0.01em;
+}
+
+.black {
+  background: linear-gradient(135deg, #000000 0%, #676666 50%, #000000 100%);
+  color: #ebe3e3;
+}
+
+.white {
+  color: #2e2d2d;
+  background: #ebe3e3;
+}
+
+.btn-black {
+  background-color: black;
+  color: #ebe3e3;
+}
+
+.btn-black:hover {
+  background-color: white;
+  color: #000000;
+}
+
+.btn-white:hover {
+  background-color: black;
+  color: #ebe3e3;
+}
+
+.btn-white {
+  background-color: white;
+  color: #000000;
 }
