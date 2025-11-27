@@ -8,7 +8,7 @@
 }
 
 .list-group-item:hover {
-  background: #cac6c6;
+  background: #cde8eb;
 }
 
 .list-group-item a {
@@ -17,30 +17,8 @@
   display: block;
 }
 
-.section-book {
-  border: 1px solid #b2adad;
-  border-radius: 1rem;
-  margin: 5px;
-  background: #6f8e8c;
-}
-
-.section-video {
-  border: 1px solid #b2adad;
-  border-radius: 1rem;
-  margin: 5px;
-  background: #8d6d6d;
-}
-
-.section-channel {
-  border: 1px solid #adb0b2;
-  border-radius: 1rem;
-  margin: 5px;
-  background: #90a0b5;
-}
-
-.section-other {
-  border: 1px solid #b2adad;
-  border-radius: 1rem;
-  margin: 5px;
-  background: #d4b8a0;
+.accordion-button{
+  background: #ded8d8;
+  border-bottom: 1px solid #ded9d9;
+  padding: 10px;
 }

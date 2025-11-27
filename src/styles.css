@@ -14,7 +14,7 @@ body {
 }
 
 .black {
-  background: linear-gradient(135deg, #000000 0%, #676666 50%, #000000 100%);
+  background: linear-gradient(135deg, #77b3c7 0%, #88b8bc 50%, #77b3c7 100%);
   color: #ebe3e3;
 }
 
@@ -24,7 +24,7 @@ body {
 }
 
 .btn-black {
-  background-color: black;
+  background-color: #76a7bc;
   color: #ebe3e3;
   border-radius: 50rem;
 }
@@ -36,11 +36,11 @@ body {
 }
 
 .btn-black:hover {
-  background-color: rgb(14, 104, 39);
+  background-color: #88b8bc;
   color: #ebe3e3;
 }
 
 .btn-white:hover {
-  background-color: rgb(14, 104, 39);
+  background-color: #88b8bc;
   color: #ebe3e3;
 }

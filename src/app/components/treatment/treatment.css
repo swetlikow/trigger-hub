@@ -5,16 +5,16 @@
 
 .list-group-item {
   background: transparent;
-  border-color: #5a5858;
+  border-color: #beb9b9;
   color: #ebe3e3;
 }
 
-.avoid-item {
-  background: #f8d7da;
-  padding: 7px;
-  border-radius: 0.5rem;
+.list-group-item:hover {
+  background: #7aa6aa;
 }
 
-.avoid-item:hover {
-  background-color: #dec2c4;
+.accordion-button{
+  background: #f8d7da;
+  border-bottom: 1px solid #ded9d9;
+  padding: 10px;
 }
