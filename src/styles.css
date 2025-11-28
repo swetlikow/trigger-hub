@@ -22,23 +22,27 @@ body {
 }
 
 .btn-black {
-  background-color: #4c7190;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #000000;
   border-radius: 50rem;
+  border-color: #beb9b9;
 }
 
 .btn-white {
   background-color: #ffffff;
   color: #000000;
   border-radius: 50rem;
+  border-color: #beb9b9;
 }
 
 .btn-black:hover {
   background-color: #3197d7;
   color: #ffffff;
+  border-color: #beb9b9;
 }
 
 .btn-white:hover {
   background-color: #3197d7;
   color: #ffffff;
+  border-color: #beb9b9;
 }
