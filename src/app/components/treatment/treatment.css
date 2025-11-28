@@ -1,4 +1,3 @@
-
 .section-title {
   font-weight: 600;
 }
@@ -6,15 +5,16 @@
 .list-group-item {
   background: transparent;
   border-color: #beb9b9;
-  color: #ebe3e3;
+  color: #ffffff;
 }
 
 .list-group-item:hover {
   background: #7aa6aa;
 }
 
-.accordion-button{
+.accordion-button {
   background: #f8d7da;
   border-bottom: 1px solid #ded9d9;
-  padding: 10px;
+  padding: 12px;
+  font-size: 22px;
 }

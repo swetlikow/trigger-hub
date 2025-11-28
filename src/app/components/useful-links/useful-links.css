@@ -17,8 +17,9 @@
   display: block;
 }
 
-.accordion-button{
+.accordion-button {
   background: #ded8d8;
   border-bottom: 1px solid #ded9d9;
-  padding: 10px;
+  padding: 12px;
+  font-size: 22px;
 }

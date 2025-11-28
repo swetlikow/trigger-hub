@@ -7,15 +7,13 @@ body {
 body {
   position: relative;
   overflow-x: hidden;
-  font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'SF Pro Display', 'Helvetica Neue',
-    Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-size: 22px;
   background: #ebe3e3;
 }
 
 .black {
   background: linear-gradient(135deg, #77b3c7 0%, #88b8bc 50%, #77b3c7 100%);
-  color: #ebe3e3;
+  color: #ffffff;
 }
 
 .white {
@@ -24,23 +22,23 @@ body {
 }
 
 .btn-black {
-  background-color: #76a7bc;
-  color: #ebe3e3;
+  background-color: #4c7190;
+  color: #ffffff;
   border-radius: 50rem;
 }
 
 .btn-white {
-  background-color: white;
+  background-color: #ffffff;
   color: #000000;
   border-radius: 50rem;
 }
 
 .btn-black:hover {
-  background-color: #88b8bc;
-  color: #ebe3e3;
+  background-color: #3197d7;
+  color: #ffffff;
 }
 
 .btn-white:hover {
-  background-color: #88b8bc;
-  color: #ebe3e3;
+  background-color: #3197d7;
+  color: #ffffff;
 }
