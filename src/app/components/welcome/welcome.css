@@ -13,20 +13,5 @@
 }
 
 .info-card:hover {
-  background-color: #7aa6aa;
-}
-
-.quick-nav-tile {
-  border-radius: 1rem;
-  background: transparent;
-  padding: 2rem;
-  text-align: center;
-  transition: all 0.2s ease;
-  cursor: pointer;
-  border: 1px solid currentColor;
-}
-
-.quick-nav-tile:hover {
-  background: rgba(0, 0, 0, 0.05);
-  transform: translateY(-3px);
+  background-color: #0420301a;
 }

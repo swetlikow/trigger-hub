@@ -4,17 +4,22 @@
 
 .list-group-item {
   background: transparent;
-  border-color: #beb9b9;
-  color: #2e2d2d;
+  border-color: #eee9e9;
+  color: #4d5076;
 }
 
 .list-group-item:hover {
-  background: #7aa6aa;
+  background: #0420301a;
 }
 
 .accordion-button {
-  background: #f8d7da;
-  border-bottom: 1px solid #ded9d9;
+  background: #f5e5e6;
+  border-bottom: 1px solid #eee9e9;
   padding: 12px;
   font-size: 22px;
+  color: #4d5076;
+}
+
+.accordion-body{
+  color: #4d5076;
 }

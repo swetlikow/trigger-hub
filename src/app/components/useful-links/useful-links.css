@@ -4,11 +4,12 @@
 
 .list-group-item {
   background: transparent;
-  border-color: #ded8d8;
+  border-color: #eee9e9;
+  color: #4d5076;
 }
 
 .list-group-item:hover {
-  background: #cde8eb;
+  background: #0420301a;
 }
 
 .list-group-item a {
@@ -18,8 +19,11 @@
 }
 
 .accordion-button {
-  background: #ded8d8;
-  border-bottom: 1px solid #ded9d9;
   padding: 12px;
   font-size: 22px;
+  color: #4d5076;
+}
+
+.accordion-button:hover {
+  background: #0420301a;
 }

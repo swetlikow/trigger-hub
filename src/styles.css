@@ -9,40 +9,11 @@ body {
   overflow-x: hidden;
   font-size: 22px;
   background: #ffffff;
+  color: #4d5076;
+  font-family: 'Montserrat Alternates', Arial, sans-serif;
 }
 
-.black {
-  background: linear-gradient(135deg, #cbf0ff 0%, #a2d3d7 50%, #cbf0ff 100%);
-  color: #2e2d2d;
-}
-
-.white {
-  color: #2e2d2d;
-  background: #ffffff;
-}
-
-.btn-black {
-  background-color: #ffffff;
-  color: #2e2d2d;
-  border-radius: 50rem;
-  border-color: #beb9b9;
-}
-
-.btn-white {
-  background-color: #ffffff;
-  color: #2e2d2d;
-  border-radius: 50rem;
-  border-color: #beb9b9;
-}
-
-.btn-black:hover {
-  background-color: #3197d7;
-  color: #ffffff;
-  border-color: #beb9b9;
-}
-
-.btn-white:hover {
-  background-color: #3197d7;
-  color: #ffffff;
-  border-color: #beb9b9;
+.btn {
+  color: #4d5076;
+  border-radius: 30px;
 }
