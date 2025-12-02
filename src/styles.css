@@ -8,29 +8,29 @@ body {
   position: relative;
   overflow-x: hidden;
   font-size: 22px;
-  background: #ebe3e3;
+  background: #ffffff;
 }
 
 .black {
-  background: linear-gradient(135deg, #77b3c7 0%, #88b8bc 50%, #77b3c7 100%);
-  color: #ffffff;
+  background: linear-gradient(135deg, #cbf0ff 0%, #a2d3d7 50%, #cbf0ff 100%);
+  color: #2e2d2d;
 }
 
 .white {
   color: #2e2d2d;
-  background: #ebe3e3;
+  background: #ffffff;
 }
 
 .btn-black {
   background-color: #ffffff;
-  color: #000000;
+  color: #2e2d2d;
   border-radius: 50rem;
   border-color: #beb9b9;
 }
 
 .btn-white {
   background-color: #ffffff;
-  color: #000000;
+  color: #2e2d2d;
   border-radius: 50rem;
   border-color: #beb9b9;
 }
