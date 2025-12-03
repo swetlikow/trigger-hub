@@ -15,12 +15,18 @@
   padding: 2px;
 }
 
+@media (min-width: 768px) {
+  .nav-link {
+  padding: 8px;
+}
+}
+
 .nav-link:hover {
-  background-color: #0420301a;
+  background-color: #04ad611a;
 }
 
 .nav-link.active {
-  background-color: #0420301a;
+  background-color: #04ad611a;
 }
 
 .navbar-toggler-icon {
