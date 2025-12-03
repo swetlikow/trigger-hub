@@ -1,4 +1,3 @@
-
 .section-title {
   font-weight: 600;
   margin-bottom: 1rem;
@@ -6,7 +5,7 @@
 
 .info-card {
   border-radius: 1rem;
-  padding: 2rem;
+  padding: 1rem;
   transition: all 0.2s ease;
   height: 100%;
   background: transparent;
@@ -16,9 +15,9 @@
   background-color: #0420301a;
 }
 
-.info-cards{
+.info-cards {
   background-color: #a3a6cd;
   color: #ffffff;
   border-radius: 1rem;
-  padding: 2rem;
+  padding: 1rem;
 }
