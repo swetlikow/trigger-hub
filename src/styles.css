@@ -7,18 +7,24 @@ body {
 body {
   position: relative;
   overflow-x: hidden;
-  font-size: 22px;
+  font-size: 16px;
   background: #ffffff;
   color: #4d5076;
   font-family: 'Montserrat Alternates', Arial, sans-serif;
 }
 
+@media (min-width: 768px) {
+  body {
+    font-size: 22px;
+  }
+}
+
 .btn {
-  color: #4d5076;
+  color: #ffffff;
   border-radius: 30px;
-  background-color: rgb(119, 204, 241);
+  background-color: #77ccf1;
 }
 
 .btn:hover {
-  background-color: rgb(94, 174, 208);
+  background-color: #5eaed0;
 }

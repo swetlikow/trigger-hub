@@ -16,10 +16,16 @@
   background: #f5e5e6;
   border-bottom: 1px solid #eee9e9;
   padding: 12px;
-  font-size: 22px;
+  font-size: 16px;
   color: #4d5076;
 }
 
-.accordion-body{
+@media (min-width: 768px) {
+  .accordion-button {
+    font-size: 22px;
+  }
+}
+
+.accordion-body {
   color: #4d5076;
 }
