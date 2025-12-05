@@ -10,47 +10,60 @@
   </div>
 </section>
 
-<section class="py-5">
+<section class="py-3">
   <div class="container">
-    <h2 class="section-title text-center">Отправить информацию</h2>
-    <p class="text-center mx-auto">
-      Оставьте свои данные, чтобы другие в вашем регионе могли с вами связаться. Это простой способ найти
-      кого-то, кто понимает триггерные точки и хочет обменяться помощью в лечении.
-    </p>
-    <form class="mt-4">
-      <div class="mb-3">
-        <label for="name" class="form-label">Ваше имя</label>
-        <input type="text" id="name" class="form-control" placeholder="Введите ваше имя" />
+    <div class="hub-list">
+      <div class="search-controls">
+        <div class="dropdown-group">
+          <label for="country-select">Страна:</label>
+          <select
+            id="country-select"
+            class="search-dropdown"
+            [(ngModel)]="selectedCountry"
+            (change)="onCountryChange()"
+          >
+            <option value="">Выберите страну</option>
+            <option *ngFor="let country of countries" [value]="country">{{ country }}</option>
+          </select>
+        </div>
+
+        <div class="dropdown-group">
+          <label for="city-select">Город:</label>
+          <select
+            id="city-select"
+            class="search-dropdown"
+            [(ngModel)]="selectedCity"
+            [disabled]="!selectedCountry"
+          >
+            <option value="">Выберите город</option>
+            <option *ngFor="let city of filteredCities" [value]="city">{{ city }}</option>
+          </select>
+        </div>
       </div>
 
-      <div class="mb-3">
-        <label for="contact" class="form-label">Контакт (Telegram, Email, Телефон)</label>
-        <input
-          type="text"
-          id="contact"
-          class="form-control"
-          placeholder="Как с вами может связаться партнер?"
-        />
-      </div>
+      <div class="results-container" *ngIf="selectedCity">
+        <h3 class="results-title">Найдено партнеров: {{ filteredPeople.length }}</h3>
 
-      <div class="mb-3">
-        <label for="city" class="form-label">Город / Регион</label>
-        <input type="text" id="city" class="form-control" placeholder="Где вы находитесь?" />
-      </div>
+        <div *ngIf="filteredPeople.length === 0" class="no-results">
+          В выбранном городе пока нет зарегистрированных партнеров
+        </div>
 
-      <div class="mb-4">
-        <label for="notes" class="form-label">Примечания (необязательно)</label>
-        <textarea
-          id="notes"
-          class="form-control"
-          rows="3"
-          placeholder="Опишите вашу проблему или какого партнера вы ищете"
-        ></textarea>
+        <div class="results-list" *ngIf="filteredPeople.length > 0">
+          <div class="person-card" *ngFor="let person of filteredPeople">
+            <div class="person-header">
+              <h4 class="person-name">{{ person.name }}</h4>
+              <div class="person-meta">
+                <span class="person-sex">{{ person.sex }}</span>
+                <span class="person-age">{{ person.age }} лет</span>
+              </div>
+            </div>
+            <div class="person-contact"><strong>Контакт:</strong> {{ person.contact }}</div>
+            <div class="person-description">
+              {{ person.description }}
+            </div>
+          </div>
+        </div>
       </div>
-
-      <div class="text-center">
-        <button type="submit" class="btn btn-lg px-4 mt-3">Найти партнера</button>
-      </div>
-    </form>
+    </div>
   </div>
 </section>
