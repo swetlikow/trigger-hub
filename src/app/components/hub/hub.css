@@ -1,0 +1,59 @@
+.section-title {
+  font-weight: 600;
+}
+
+.list-group-item {
+  background: transparent;
+  border-color: #eee9e9;
+  color: #4d5076;
+}
+
+.list-group-item:hover {
+  background: #0420301a;
+}
+
+.list-group-item a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.accordion-button {
+  padding: 12px;
+  font-size: 16px;
+  color: #4d5076;
+}
+
+@media (min-width: 768px) {
+  .accordion-button {
+    font-size: 22px;
+  }
+}
+
+.accordion-button:hover {
+  background: #0420301a;
+}
+
+.accordion-body .list-group {
+  max-height: 400px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.accordion-body .list-group::-webkit-scrollbar {
+  width: 8px;
+}
+
+.accordion-body .list-group::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+.accordion-body .list-group::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+.accordion-body .list-group::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
