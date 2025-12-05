@@ -33,3 +33,27 @@
 .accordion-button:hover {
   background: #0420301a;
 }
+
+.accordion-body .list-group {
+  max-height: 400px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.accordion-body .list-group::-webkit-scrollbar {
+  width: 8px;
+}
+
+.accordion-body .list-group::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+.accordion-body .list-group::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+.accordion-body .list-group::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
