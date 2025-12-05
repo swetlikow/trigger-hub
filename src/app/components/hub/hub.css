@@ -22,12 +22,19 @@
   padding: 12px;
   font-size: 16px;
   color: #4d5076;
+  background: #c3c5e0;
 }
 
 @media (min-width: 768px) {
   .accordion-button {
     font-size: 22px;
   }
+}
+
+.hub-list {
+  background-color: #c3c5e0;
+  border-radius: 1rem;
+  padding: 1rem;
 }
 
 .accordion-button:hover {
