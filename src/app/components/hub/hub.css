@@ -15,7 +15,35 @@
 .list-group-item a {
   text-decoration: none;
   color: inherit;
-  display: block;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.link-icon {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+
+.youtube-icon {
+  color: #FF0000;
+}
+
+.book-icon {
+  color: #4d5076;
+}
+
+.telegram-icon {
+  color: #0088cc;
+}
+
+.reddit-icon {
+  color: #FF4500;
+}
+
+.web-icon {
+  color: #4d5076;
 }
 
 .accordion-button {
