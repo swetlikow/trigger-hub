@@ -2,10 +2,16 @@
   font-weight: 600;
 }
 
+.treatment-list {
+  background-color: #a3a6cd;
+  color: #ffffff;
+  border-radius: 1rem;
+  padding: 1rem;
+}
 .list-group-item {
   background: transparent;
-  border-color: #eee9e9;
-  color: #4d5076;
+  border-color: #c7c1c1;
+  color: #ffffff;
 }
 
 .list-group-item:hover {
